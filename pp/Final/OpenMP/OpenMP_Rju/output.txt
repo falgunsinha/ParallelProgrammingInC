@@ -1,0 +1,5 @@
+Line 1 by thread 0, mode w
+Line 2 by thread 1, mode a
+Line 3 by thread 2, mode a
+Line 4 by thread 3, mode a
+Line 5 by thread 4, mode a

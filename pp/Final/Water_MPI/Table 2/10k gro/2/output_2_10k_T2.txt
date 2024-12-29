@@ -1,0 +1,25 @@
+Program to calculate energy of water
+Input NAME of configuration file
+
+Number of molecules 10000
+first line 0.907000 1.052000 0.231000
+Box size 6.710000
+
+
+Total energy -470823.050255 
+Energy per molecule -47.082305 
+Max Pair: 25000000.000000
+Min Pair: 24995000.000000
+
+
+Total of pairs calculated by threads: 49995000.000000
+Total of pairs theoretically: 49995000.000000
+
+Load Imbalance: 0.000200
+
+Maximum Wall time time across threads (Reading): 0.133864
+Maximum Wall time time across threads (Calculating): 0.402548
+Maximum Wall time time across threads (Total Time): 0.536412
+
+Pair Calculation by thread 0: 25000000.000000
+Pair Calculation by thread 1: 24995000.000000

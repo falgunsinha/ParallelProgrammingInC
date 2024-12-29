@@ -1,0 +1,44 @@
+#PBS -N falgun_s_pp_water
+#PBS -l walltime=0:10:00
+#PBS -l select=1:ncpus=12:mem=1gb:scratch_local=10gb:cluster=tyra
+#PBS -j oe
+
+cat $PBS_NODEFILE
+echo "Hostname " `hostname`
+echo "PBS_NODEFILE $PBS_NODEFILE"
+SOURCE=/storage/praha1/home/falgun_s/pp/water
+echo SOURCE= $SOURCE 
+echo script sub4
+echo "Hostname " `hostname` >>$SOURCE/machine.txt
+cd $SOURCE
+module add intelmpi-5.0.1
+export OMP_NUM_THREADS=12
+./out/oa1.out < input.txt > output1.txt
+./out/oa2.out < input.txt > output2.txt
+./out/oa3.out < input.txt > output3.txt
+./out/oa4.out < input.txt > output4.txt
+./out/oa5.out < input.txt > output5.txt
+./out/oa6.out < input.txt > output6.txt
+./out/oa7.out < input.txt > output7.txt
+./out/oa8.out < input.txt > output8.txt
+./out/oa9.out < input.txt > output9.txt
+./out/oa10.out < input.txt > output10.txt
+./out/oa11.out < input.txt > output11.txt
+./out/oa12.out < input.txt > output12.txt
+./out/oa13.out < input.txt > output13.txt
+./out/oa121.out < input.txt > output121.txt
+./out/oa122.out < input.txt > output122.txt
+./out/oa123.out < input.txt > output123.txt
+./out/oa124.out < input.txt > output124.txt
+./out/oa125.out < input.txt > output125.txt
+./out/oa126.out < input.txt > output126.txt
+./out/oa127.out < input.txt > output127.txt
+./out/oa128.out < input.txt > output128.txt
+./out/oa129.out < input.txt > output129.txt
+./out/oa1210.out < input.txt > output1210.txt
+./out/oa1211.out < input.txt > output1211.txt
+./out/oa1212.out < input.txt > output1212.txt
+./out/oa1213.out < input.txt > output1213.txt
+./out/oa21.out < input.txt > output21.txt
+./out/oa22.out < input.txt > output22.txt
+./out/oa23.out < input.txt > output23.txt

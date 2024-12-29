@@ -1,0 +1,4 @@
+Number of items: 263888
+Serial Time: 5.304287
+Time: 4.099237
+Speedup: 1.293969

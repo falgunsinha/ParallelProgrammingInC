@@ -1,0 +1,162 @@
+Program to calculate energy of water
+Input NAME of configuration file
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+
+Number of molecules 100000
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+
+
+Total energy -4248073.660823 
+Energy per molecule -42.480737 
+Max Pair: 208379169.000000
+Min Pair: 208283336.000000
+
+
+Total of pairs calculated by threads: 4999950000.000000
+Total of pairs theoretically: 4999950000.000000
+
+Load Imbalance: 0.000460
+
+Maximum Wall time time across threads (Reading): 0.631669
+Maximum Wall time time across threads (Calculating): 4.080406
+Maximum Wall time time across threads (Total Time): 4.706627
+
+Pair Calculation by thread 0: 208379169.000000
+Pair Calculation by thread 1: 208375002.000000
+Pair Calculation by thread 2: 208370835.000000
+Pair Calculation by thread 3: 208366668.000000
+Pair Calculation by thread 4: 208362501.000000
+Pair Calculation by thread 5: 208358334.000000
+Pair Calculation by thread 6: 208354167.000000
+Pair Calculation by thread 7: 208350000.000000
+Pair Calculation by thread 8: 208345833.000000
+Pair Calculation by thread 9: 208341666.000000
+Pair Calculation by thread 10: 208337499.000000
+Pair Calculation by thread 11: 208333332.000000
+Pair Calculation by thread 12: 208329165.000000
+Pair Calculation by thread 13: 208324998.000000
+Pair Calculation by thread 14: 208320831.000000
+Pair Calculation by thread 15: 208316664.000000
+Pair Calculation by thread 16: 208312498.000000
+Pair Calculation by thread 17: 208308332.000000
+Pair Calculation by thread 18: 208304166.000000
+Pair Calculation by thread 19: 208300000.000000
+Pair Calculation by thread 20: 208295834.000000
+Pair Calculation by thread 21: 208291668.000000
+Pair Calculation by thread 22: 208287502.000000
+Pair Calculation by thread 23: 208283336.000000

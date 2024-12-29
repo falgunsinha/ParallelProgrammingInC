@@ -1,0 +1,4 @@
+Number 2.245300 square 5.041372
+Number 1.700000 square 2.890000
+Number 8.900000 square 79.210000
+Number 10.000000 square 100.000000

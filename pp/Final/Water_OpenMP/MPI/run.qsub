@@ -1,0 +1,15 @@
+#PBS -N basumo00_pp_waters_mpi
+#PBS -l walltime=0:10:00
+#PBS -l select=1:ncpus=12:mem=1gb:scratch_local=10gb:cluster=luna
+#PBS -j oe
+
+cat $PBS_NODEFILE
+echo "Hostname " `hostname`
+echo "PBS_NODEFILE $PBS_NODEFILE"
+SOURCE=/storage/praha1/home/basumo00/pp/water
+echo SOURCE= $SOURCE 
+echo script sub12
+echo "Hostname " `hostname` >>$SOURCE/machine.txt
+cd $SOURCE
+module add intelmpi-5.0.1
+mpirun -n 12 ./waters_mpi.out < input.txt >output_waters_mpi.txt

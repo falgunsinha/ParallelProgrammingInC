@@ -1,0 +1,9 @@
+Program to calculate energy of water
+Input NAME of configuration file
+Number of molecules 100000
+first line 0.230000 0.628000 0.113000
+Box size 14.420000
+Total energy -4248073.660820 
+ Energy per molecule -42.480737 
+Elapsed wall time: 41.240306
+Elapsed CPU  time: 41.228291

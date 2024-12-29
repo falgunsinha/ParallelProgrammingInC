@@ -1,0 +1,14 @@
+#PBS -N falgun_s_pp_water
+#PBS -l walltime=0:10:00
+#PBS -l select=1:ncpus=12:mem=1gb:scratch_local=10gb:cluster=tyra
+#PBS -j oe
+
+cat $PBS_NODEFILE
+echo "Hostname " `hostname`
+echo "PBS_NODEFILE $PBS_NODEFILE"
+SOURCE=/storage/praha1/home/falgun_s/pp/water
+echo SOURCE= $SOURCE 
+echo script sub4
+echo "Hostname " `hostname` >>$SOURCE/machine.txt
+cd $SOURCE
+./as.out < input.txt > outputs.txt

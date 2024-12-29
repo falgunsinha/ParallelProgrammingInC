@@ -1,0 +1,45 @@
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+tyra22.metacentrum.cz
+Hostname  tyra22.metacentrum.cz
+PBS_NODEFILE /var/spool/pbs/aux/19122458.meta-pbs.metacentrum.cz
+SOURCE= /storage/praha1/home/falgun_s/pp/water
+script sub4
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 20: ./out/oa1.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 21: ./out/oa2.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 22: ./out/oa3.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 23: ./out/oa4.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 24: ./out/oa5.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 25: ./out/oa6.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 26: ./out/oa7.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 27: ./out/oa8.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 28: ./out/oa9.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 29: ./out/oa10.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 30: ./out/oa11.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 31: ./out/oa12.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 32: ./out/oa13.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 33: ./out/oa121.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 34: ./out/oa122.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 35: ./out/oa123.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 36: ./out/oa124.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 37: ./out/oa125.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 38: ./out/oa126.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 39: ./out/oa127.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 40: ./out/oa128.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 41: ./out/oa129.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 42: ./out/oa1210.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 43: ./out/oa1211.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 44: ./out/oa1212.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 45: ./out/oa1213.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 46: ./out/oa21.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 47: ./out/oa22.out: No such file or directory
+/var/spool/pbs/mom_priv/jobs/19122458.meta-pbs.metacentrum.cz.SC: line 48: ./out/oa23.out: No such file or directory

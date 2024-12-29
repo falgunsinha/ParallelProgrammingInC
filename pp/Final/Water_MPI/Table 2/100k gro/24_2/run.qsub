@@ -1,0 +1,16 @@
+#PBS -N basumo00_pp3_water
+#PBS -l walltime=0:10:00
+#PBS -l select=2:ncpus=12:mem=1gb:scratch_local=10gb:cluster=elmo3
+#PBS -j oe
+
+cat $PBS_NODEFILE
+echo "Hostname " `hostname`
+echo "PBS_NODEFILE $PBS_NODEFILE"
+SOURCE=/storage/praha1/home/basumo00/pp3/water
+echo SOURCE= $SOURCE 
+echo script sub24_2
+echo "Hostname " `hostname` >>$SOURCE/machine.txt
+cd $SOURCE
+module add intelcdk-19u3
+module add intelmpi-5.0.1
+mpirun -n 24 ./waters_part3.out <input.txt> output_24_2_100k.txt

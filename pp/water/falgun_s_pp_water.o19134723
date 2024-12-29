@@ -1,0 +1,17 @@
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+tyra2.metacentrum.cz
+Hostname  tyra2.metacentrum.cz
+PBS_NODEFILE /var/spool/pbs/aux/19134723.meta-pbs.metacentrum.cz
+SOURCE= /storage/praha1/home/falgun_s/pp/water
+script subm
+=>> PBS: job killed: walltime 604 exceeded limit 600

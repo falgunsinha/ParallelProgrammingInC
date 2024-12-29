@@ -1,0 +1,33 @@
+#!/bin/bash
+outfile=`ls -t *.out | head -n 1 | awk -F\. '{print $1;}'` # latest out file name
+runfile="run.qsub" # script file name
+
+if test -e $outfile.out; then # out file exists
+ # qsub script
+ echo "#PBS -N `pwd | sed -e 's/\(.*\)home\/\(.*\)/\\2/g' | sed -e 's/\//_/g' `" > $runfile
+ echo "#PBS -l walltime=0:10:00">> $runfile
+ echo "#PBS -l select=1:ncpus=12:mem=1gb:scratch_local=10gb:cluster=tyra">> $runfile
+ echo "#PBS -j oe">> $runfile
+ echo >> $runfile
+ echo "cat \$PBS_NODEFILE">>$runfile
+ echo "echo \"Hostname \" \`hostname\`" >> $runfile
+ echo "echo \"PBS_NODEFILE \$PBS_NODEFILE\"">> $runfile
+
+ echo "SOURCE=`pwd`" >>$runfile
+ echo "echo SOURCE= \$SOURCE " >>$runfile
+ echo "echo script sub4" >> $runfile
+ echo "echo \"Hostname \" \`hostname\` >>\$SOURCE/machine.txt" >> $runfile
+ 
+ echo "cd \$SOURCE" >> $runfile
+ echo "module add intelmpi-5.0.1" >> $runfile
+ echo "mpirun -n 1 ./a.out > output1.txt" >> $runfile
+ echo "mpirun -n 2 ./a.out > output2.txt" >> $runfile
+ echo "mpirun -n 4 ./a.out > output4.txt" >> $runfile
+ echo "mpirun -n 8 ./a.out > output8.txt" >> $runfile
+ echo "mpirun -n 12 ./a.out > output12.txt" >> $runfile
+ echo $runfile "created"
+else
+ echo "There are no out files!"
+fi
+
+

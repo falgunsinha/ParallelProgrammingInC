@@ -1,0 +1,4 @@
+Number 2.245300 third power 11.319393
+Number 1.700000 third power 4.913000
+Number 8.900000 third power 704.969000
+Number 10.000000 third power 1000.000000

@@ -1,0 +1,28 @@
+#PBS -N basumo00_pp_waters_openmp
+#PBS -l walltime=0:10:00
+#PBS -l select=1:ncpus=12:mem=1gb:scratch_local=10gb:cluster=luna
+#PBS -j oe
+export OMP_NUM_THREADS=12
+
+cat $PBS_NODEFILE
+echo "Hostname " `hostname`
+echo "PBS_NODEFILE $PBS_NODEFILE"
+SOURCE=/storage/praha1/home/basumo00/pp/water
+echo SOURCE= $SOURCE 
+echo script sub12
+echo "Hostname " `hostname` >>$SOURCE/machine.txt
+cd $SOURCE
+module add intelmpi-5.0.1
+./static.out < input.txt >output_static.txt
+./static1.out < input.txt >output_static_1.txt
+./static100.out < input.txt >output_static_100.txt
+./static10000.out < input.txt >output_static_10000.txt
+./dynamic.out < input.txt >output_dynamic.txt
+./dynamic1.out < input.txt >output_dynamic1.txt
+./dynamic100.out < input.txt >output_dynamic100.txt
+./dynamic10000.out < input.txt >output_dynamic10000.txt
+./guided.out < input.txt >output_guided.txt
+./guided1.out < input.txt >output_guided1.txt
+./guided100.out < input.txt >output_guided100.txt
+./guided10000.out < input.txt >output_guided10000.txt
+./auto.out < input.txt >output_auto.txt

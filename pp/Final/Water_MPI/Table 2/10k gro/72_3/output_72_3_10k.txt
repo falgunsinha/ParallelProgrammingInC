@@ -1,0 +1,95 @@
+Program to calculate energy of water
+Input NAME of configuration file
+
+Number of molecules 10000
+first line 0.907000 1.052000 0.231000
+Box size 6.710000
+
+
+Total energy -470823.050255 
+Energy per molecule -47.082305 
+Max Pair: 699309.000000
+Min Pair: 689448.000000
+
+
+Total of pairs calculated by threads: 49995000.000000
+Total of pairs theoretically: 49995000.000000
+
+Load Imbalance: 0.014201
+
+Maximum Wall time time across threads (Reading): 0.193348
+Maximum Wall time time across threads (Calculating): 0.021824
+Maximum Wall time time across threads (Total Time): 0.200677
+
+Pair Calculation by thread 0: 699309.000000
+Pair Calculation by thread 1: 699170.000000
+Pair Calculation by thread 2: 699031.000000
+Pair Calculation by thread 3: 698892.000000
+Pair Calculation by thread 4: 698753.000000
+Pair Calculation by thread 7: 698336.000000
+Pair Calculation by thread 8: 698197.000000
+Pair Calculation by thread 9: 698058.000000
+Pair Calculation by thread 10: 697919.000000
+Pair Calculation by thread 11: 697780.000000
+Pair Calculation by thread 12: 697641.000000
+Pair Calculation by thread 13: 697502.000000
+Pair Calculation by thread 15: 697224.000000
+Pair Calculation by thread 16: 697085.000000
+Pair Calculation by thread 17: 696946.000000
+Pair Calculation by thread 48: 692637.000000
+Pair Calculation by thread 18: 696807.000000
+Pair Calculation by thread 49: 692498.000000
+Pair Calculation by thread 24: 695973.000000
+Pair Calculation by thread 5: 698614.000000
+Pair Calculation by thread 50: 692359.000000
+Pair Calculation by thread 25: 695834.000000
+Pair Calculation by thread 6: 698475.000000
+Pair Calculation by thread 51: 692220.000000
+Pair Calculation by thread 26: 695695.000000
+Pair Calculation by thread 14: 697363.000000
+Pair Calculation by thread 52: 692081.000000
+Pair Calculation by thread 27: 695556.000000
+Pair Calculation by thread 19: 696668.000000
+Pair Calculation by thread 53: 691942.000000
+Pair Calculation by thread 28: 695417.000000
+Pair Calculation by thread 20: 696529.000000
+Pair Calculation by thread 54: 691803.000000
+Pair Calculation by thread 29: 695278.000000
+Pair Calculation by thread 21: 696390.000000
+Pair Calculation by thread 55: 691664.000000
+Pair Calculation by thread 30: 695139.000000
+Pair Calculation by thread 22: 696251.000000
+Pair Calculation by thread 56: 691525.000000
+Pair Calculation by thread 31: 695000.000000
+Pair Calculation by thread 23: 696112.000000
+Pair Calculation by thread 57: 691386.000000
+Pair Calculation by thread 32: 694861.000000
+Pair Calculation by thread 58: 691247.000000
+Pair Calculation by thread 33: 694722.000000
+Pair Calculation by thread 59: 691108.000000
+Pair Calculation by thread 34: 694583.000000
+Pair Calculation by thread 60: 690969.000000
+Pair Calculation by thread 35: 694444.000000
+Pair Calculation by thread 61: 690830.000000
+Pair Calculation by thread 36: 694305.000000
+Pair Calculation by thread 62: 690691.000000
+Pair Calculation by thread 37: 694166.000000
+Pair Calculation by thread 63: 690552.000000
+Pair Calculation by thread 38: 694027.000000
+Pair Calculation by thread 64: 690414.000000
+Pair Calculation by thread 39: 693888.000000
+Pair Calculation by thread 65: 690276.000000
+Pair Calculation by thread 40: 693749.000000
+Pair Calculation by thread 66: 690138.000000
+Pair Calculation by thread 41: 693610.000000
+Pair Calculation by thread 67: 690000.000000
+Pair Calculation by thread 42: 693471.000000
+Pair Calculation by thread 68: 689862.000000
+Pair Calculation by thread 43: 693332.000000
+Pair Calculation by thread 69: 689724.000000
+Pair Calculation by thread 44: 693193.000000
+Pair Calculation by thread 70: 689586.000000
+Pair Calculation by thread 45: 693054.000000
+Pair Calculation by thread 71: 689448.000000
+Pair Calculation by thread 46: 692915.000000
+Pair Calculation by thread 47: 692776.000000

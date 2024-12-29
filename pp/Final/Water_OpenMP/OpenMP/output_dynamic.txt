@@ -1,0 +1,32 @@
+****************************************************************
+OPENMP Implementation for Program to calculate energy of water
+****************************************************************
+Number of molecules 100000
+first line 0.230000 0.628000 0.113000
+last line 1.013000 0.105000 11.080000
+Box size 14.420000
+
+Load Imbalance: 0.075229
+Total energy: -4248073.660822
+Energy per molecule: -42.480737 
+
+
+Elapsed wall time: 5.332350
+Elapsed CPU  time: 62.783897
+
+
+Max NPAIR: 430588744.000000
+Min NPAIR: 399370263.000000
+
+Pair calculation by thread 0 is 430405644.000000
+Pair calculation by thread 1 is 414967129.000000
+Pair calculation by thread 2 is 430588744.000000
+Pair calculation by thread 3 is 408477723.000000
+Pair calculation by thread 4 is 407286307.000000
+Pair calculation by thread 5 is 428885447.000000
+Pair calculation by thread 6 is 416547236.000000
+Pair calculation by thread 7 is 409100214.000000
+Pair calculation by thread 8 is 427956698.000000
+Pair calculation by thread 9 is 415600629.000000
+Pair calculation by thread 10 is 399370263.000000
+Pair calculation by thread 11 is 410763966.000000

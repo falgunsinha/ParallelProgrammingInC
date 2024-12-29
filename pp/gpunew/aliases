@@ -1,0 +1,18 @@
+alias l='ls -lth --color=auto'
+alias up='cd ..'
+alias m=more
+alias n=nano
+alias hi='history |tail -n 30'
+alias qstatu='qstat -u $USER'
+#module add intel-parallel-studio/intel-parallel-studio-cluster.2020.0-intel-20.0.0-z7xj76p
+#module add intelmpi-5.0.1
+module add cuda-10.0
+alias praha='cd /storage/praha1/home/$USER'
+alias brno='cd /storage/brno12-cerit/home/$USER'
+chmod 700 ~
+alias icc='icc -no-multibyte-chars -diag-disable cpu-dispatch'
+alias mpiicc='mpiicc -no-multibyte-chars -diag-disable cpu-dispatch'
+alias icco="icc -qopenmp"
+export OMP_NUM_THREADS=4
+export PS1="\u@\h: \w:$ "
+PATH=.:$PATH

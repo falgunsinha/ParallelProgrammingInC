@@ -1,0 +1,43 @@
+    1  clear
+    2  cd ptest
+    3  icco codept.c
+    4  icco codept.c
+    5  icco codept.c
+    6  icco codept.c
+    7  icco codept.c
+    8  icco codept.c
+    9  cd ..
+   10  source aliases
+   11  cd ptest
+   12  icco codept.c
+   13  icco codept.c
+   14  icco codept.c
+   15  icco codept.c
+   16  export OMP_NUM_THREADS=3
+   17  a.out
+   18  icco codept.c
+   19  icco codept.c
+   20  icco codept.c
+   21  icco codept.c
+   22  icco codept.c
+   23  export OMP_NUM_THREADS=3
+   24  a.out
+   25  icco codept.c
+   26  icco codept.c
+   27  icco codept.c
+   28  export OMP_NUM_THREADS=3
+   29  a.out
+   30  icco codept.c
+   31  icco codept.c
+   32  icco codept.c
+   33  export OMP_NUM_THREADS=3
+   34  a.out
+   35  icco codept.c
+   36  export OMP_NUM_THREADS=3
+   37  a.out
+   38  icco codept.c
+   39  export OMP_NUM_THREADS=3
+   40  a.out
+   41  history >hi
+   42  ~predota/.pt
+   43  ~predota/vmd/f1

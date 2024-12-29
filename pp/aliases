@@ -1,0 +1,14 @@
+alias l='ls -lth --color=auto'
+alias up='cd ..'
+alias m=more
+alias n=nano
+alias hi='history |tail -n 30'
+alias qstatu='qstat -u predota'
+module add intel-parallel-studio/intel-parallel-studio-cluster.2020.0-intel-20.0.0-z7xj76p
+module add intelmpi-5.0.1
+alias icc='icc -no-multibyte-chars -diag-disable cpu-dispatch'
+alias mpiicc='mpiicc -no-multibyte-chars -diag-disable cpu-dispatch'
+alias icco="icc -qopenmp"
+export OMP_NUM_THREADS=4
+export PS1="\u@\h: \w:$ "
+PATH=.:$PATH

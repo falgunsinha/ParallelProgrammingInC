@@ -1,0 +1,28 @@
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+tyra3.metacentrum.cz
+Hostname  tyra3.metacentrum.cz
+PBS_NODEFILE /var/spool/pbs/aux/19134834.meta-pbs.metacentrum.cz
+SOURCE= /storage/praha1/home/falgun_s/pp/water
+script subm
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)
+[proxy:0:0@tyra3.metacentrum.cz] HYDU_create_process (../../utils/launch/launch.c:590): execvp error on file am.out (No such file or directory)

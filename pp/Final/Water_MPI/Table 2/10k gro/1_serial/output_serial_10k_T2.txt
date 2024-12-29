@@ -1,0 +1,10 @@
+Program to calculate energy of water
+Input NAME of configuration file
+10k.gro
+Number of molecules 10000
+first line 0.907000 1.052000 0.231000
+Box size 6.710000
+Total energy -470823.050255 
+ Energy per molecule -47.082305 
+Elapsed wall time: 0.445957
+Elapsed CPU  time: 0.445819

@@ -1,0 +1,19 @@
+#PBS -N falgun_s_pp_sortnew
+#PBS -l walltime=0:20:00
+#PBS -l select=1:ncpus=12:mem=1gb:scratch_local=10gb:cluster=tyra
+#PBS -j oe
+
+cat $PBS_NODEFILE
+echo "Hostname " `hostname`
+echo "PBS_NODEFILE $PBS_NODEFILE"
+SOURCE=/storage/praha1/home/falgun_s/pp/sortnew
+echo SOURCE= $SOURCE 
+echo script sub4
+echo "Hostname " `hostname` >>$SOURCE/machine.txt
+cd $SOURCE
+module add intelmpi-5.0.1
+mpirun -n 1 ./a.out > output1.txt
+mpirun -n 2 ./a.out > output2.txt
+mpirun -n 4 ./a.out > output4.txt
+mpirun -n 8 ./a.out > output8.txt
+mpirun -n 12 ./a.out > output12.txt
